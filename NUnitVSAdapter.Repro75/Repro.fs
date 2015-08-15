@@ -79,7 +79,7 @@ type ``Test Cases``() =
     member x.SolutionDataSource =
         [
             TestCaseData(({ A = 1; B = 2} : ProblemRecord), 3)
-                .SetName(sprintf "Workaround %i" 3)
+                .SetName("Workaround")
         ]
 
     // This test case will be run by Test Explorer
